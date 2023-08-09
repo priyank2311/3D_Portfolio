@@ -106,9 +106,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "Aug 2021 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed and developed a dynamic chat interface, akin to WhatsApp, enabling users to exchange messages, images, and documents seamlessly.",
+      "Developed dynamic survey form enabling users to select questions from dropdown and submit answers. Enhanced user engagement and data collection.",
+      "Designed and implemented customizable UI with theme toggling, empowering users to personalize their experience through dynamic theme selection.",
+      "Developed responsive UIs using ReactJS, Typescript, and Bootstrap. Managed state with Redux, enhanced aesthetics with Material UI."
     ],
   },
   {
