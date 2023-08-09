@@ -136,38 +136,11 @@ const experiences = [
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
-
 const projects = [
   {
     name: "Amazon Clone",
     description:
-      "Web application that look similar to Amazon. Amazon website with full E-Commerce functionality, Login Page, Products Page, Cart and Checkout Page. Used ReactJs & Firebase as backend database server",
+      "Web application that look similar to Amazon. Amazon website with full E-Commerce functionality.",
     tags: [
       {
         name: "react",
@@ -180,6 +153,27 @@ const projects = [
     ],
     image: amazon,
     source_code_link: "https://github.com/priyank2311/amazon-clone",
+  },
+  {
+    name: "Customize T-Shirt",
+    description:
+      "Web application that provide User to Customize there own T-Shirts. It's a 3D web page, where User can changed the Color, Upload there own Logo or even better they can customize by asking AI to generate the Logo or the Texture",
+    tags: [
+      {
+        name: "threejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "framer-motion",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: custom,
+    source_code_link: "https://github.com/priyank2311/customize_ai_tshort",
   },
   {
     name: "Stress Relief",
@@ -202,27 +196,6 @@ const projects = [
     image: strees,
     source_code_link: "https://github.com/priyank2311/AreyouAngry",
   },
-  {
-    name: "Recipe Book",
-    description:
-      "Web application that provide User to Customize there own T-Shirts. It's a 3D web page, where User can changed the Color, Upload there own Logo or even better they can customize by asking AI to generate the Logo or the Texture",
-    tags: [
-      {
-        name: "threejs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "framer-motion",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: custom,
-    source_code_link: "https://github.com/",
-  },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
