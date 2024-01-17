@@ -21,14 +21,15 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import healthJay from './company/healthJay.png'
-import untrodden from './company/untrodden.jpg'
-import osyte from './company/osyte.jpg'
+import healthJay from './company/healthJay.png';
+import untrodden from './company/untrodden.jpg';
+import osyte from './company/osyte.jpg';
 import amazon from "./amazon.png";
 import strees from "./strees.png";
 import custom from "./custom.png";
-import logoFile from './logo-no-background.png'
-import logoFile1 from './logo-no-background.svg'
+import logoFile from './logo-no-background.png';
+import logoFile1 from './logo-no-background.svg';
+import yt_clone from './yt_clone.png'
 
 export {
   logo,
@@ -60,4 +61,5 @@ export {
   amazon,
   strees,
   custom,
+  yt_clone
 };

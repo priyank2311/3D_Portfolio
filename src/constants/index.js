@@ -18,7 +18,8 @@ import {
   threejs,
   healthJay,
   osyte, 
-  untrodden
+  untrodden, 
+  yt_clone
 } from "../assets";
 
 export const navLinks = [
@@ -141,14 +142,14 @@ const projects = [
   {
     name: "Amazon Clone",
     description:
-      "Web application that look similar to Amazon. Amazon website with full E-Commerce functionality.",
+      "I developed a comprehensive Amazon e-commerce clone using ReactJS, meticulously replicating the user interface and incorporating all essential features available on the original platform.",
     tags: [
       {
-        name: "react",
+        name: "ReactJs",
         color: "blue-text-gradient",
       },
       {
-        name: "firebase",
+        name: "Firebase",
         color: "pink-text-gradient",
       },
     ],
@@ -161,15 +162,15 @@ const projects = [
       "Web application that provide User to Customize there own T-Shirts. It's a 3D web page, where User can changed the Color, Upload there own Logo or even better they can customize by asking AI to generate the Logo or the Texture",
     tags: [
       {
-        name: "threejs",
+        name: "Threejs",
         color: "blue-text-gradient",
       },
       {
-        name: "framer-motion",
+        name: "Framer-motion",
         color: "green-text-gradient",
       },
       {
-        name: "tailwindcss",
+        name: "Tailwind-CSS",
         color: "pink-text-gradient",
       },
     ],
@@ -177,25 +178,25 @@ const projects = [
     source_code_link: "https://github.com/priyank2311/customize_ai_tshort",
   },
   {
-    name: "Stress Relief",
+    name: "YouTube Clone",
     description:
-      "Web application that enables users Stress by playing this game. I used simple Vanilla Javascript.",
+      "Designed and developed a feature-rich YouTube clone using ReactJS, Material-UI, and integrated RapidAPI to replicate the functionality of the popular video-sharing platform.",
     tags: [
       {
-        name: "HTML",
+        name: "ReactJs",
         color: "blue-text-gradient",
       },
       {
-        name: "CSS",
+        name: "Material-UI",
         color: "green-text-gradient",
       },
       {
-        name: "JavaScript",
+        name: "RapidAPI",
         color: "pink-text-gradient",
       },
     ],
-    image: strees,
-    source_code_link: "https://github.com/priyank2311/AreyouAngry",
+    image: yt_clone,
+    source_code_link: "https://github.com/priyank2311/youtube_clone",
   },
 ];
 
