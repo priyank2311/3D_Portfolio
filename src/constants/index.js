@@ -19,7 +19,8 @@ import {
   healthJay,
   osyte, 
   untrodden, 
-  yt_clone
+  yt_clone,
+  copartner
 } from "../assets";
 
 export const navLinks = [
@@ -101,11 +102,22 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Sr.Front-End Developer",
+    company_name: "Copartner",
+    icon: copartner,
+    iconBg: "#383E56",
+    date: "Mar 2024 - Present",
+    points: [
+      "Developed a real-time chat application similar to WhatsApp Web using SignalR (Microsoft library) for seamless two-way communication. Implemented a subscription-based chat feature that tracks user chat duration, automatically moving expired chats to a history section. This solution improved user engagement and streamlined chat management based on subscription plans.",
+      "Established and configured repository environments for User Page, Admin Dashboard Page, and Super Admin Dashboard Page from scratch. Developed responsive designs across all repositories, optimizing usability on all devices.",
+    ],
+  },
+  {
     title: "Front-End Developer",
     company_name: "HealthJay",
     icon: healthJay,
     iconBg: "#383E56",
-    date: "Aug 2021 - Present",
+    date: "Aug 2021 - Mar 2024",
     points: [
       "Designed and developed a dynamic chat interface, akin to WhatsApp, enabling users to exchange messages, images, and documents seamlessly.",
       "Developed dynamic survey form enabling users to select questions from dropdown and submit answers. Enhanced user engagement and data collection.",

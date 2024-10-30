@@ -22,6 +22,7 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import healthJay from './company/healthJay.png';
+import copartner from './company/copartnerindia_logo.jpg';
 import untrodden from './company/untrodden.jpg';
 import osyte from './company/osyte.jpg';
 import amazon from "./amazon.png";
@@ -61,5 +62,5 @@ export {
   amazon,
   strees,
   custom,
-  yt_clone
+  yt_clone, copartner,
 };
